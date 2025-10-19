@@ -8,9 +8,6 @@ const nextConfig = {
     domains: ['localhost', 'vercel.app', 'github.com', '*.vercel.app']
   },
   output: 'standalone',
-  experimental: {
-    appDir: true,
-  },
   env: {
     CUSTOM_KEY: process.env.CUSTOM_KEY,
   },

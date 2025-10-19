@@ -13,7 +13,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Employee } from '@/types';
-import { formatDistanceToNow } from 'date-fns';
+import { formatDistanceToNow } from 'date-fns/formatDistanceToNow';
 import { DollarSign, Mail, Wallet } from 'lucide-react';
 
 interface EmployeeTableProps {

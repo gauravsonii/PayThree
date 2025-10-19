@@ -14,7 +14,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PayoutBatch, Payout, Employee } from '@/types';
 import { payoutApi } from '@/lib/api';
-import { formatDistanceToNow } from 'date-fns';
+import { formatDistanceToNow } from 'date-fns/formatDistanceToNow';
 import { ExternalLink, Eye } from 'lucide-react';
 import { LoadingSpinner, LoadingSpinnerFull } from '@/components/ui/loading-spinner';
 

@@ -8,7 +8,19 @@ import { employeeApi } from '@/lib/api';
 import { Employee } from '@/types';
 import { TrendingUp, Calendar, Users, Award, Clock, DollarSign, Trash2 } from 'lucide-react';
 import { StatsCard } from '@/components/dashboard/stats-card';
-import { formatDistanceToNow } from 'date-fns';
+// Simple date formatting function
+const formatDistanceToNow = (date: Date) => {
+  const now = new Date();
+  const diffInSeconds = Math.floor((now.getTime() - date.getTime()) / 1000);
+  const diffInMinutes = Math.floor(diffInSeconds / 60);
+  const diffInHours = Math.floor(diffInMinutes / 60);
+  const diffInDays = Math.floor(diffInHours / 24);
+  
+  if (diffInDays > 0) return `${diffInDays} day${diffInDays > 1 ? 's' : ''} ago`;
+  if (diffInHours > 0) return `${diffInHours} hour${diffInHours > 1 ? 's' : ''} ago`;
+  if (diffInMinutes > 0) return `${diffInMinutes} minute${diffInMinutes > 1 ? 's' : ''} ago`;
+  return 'Just now';
+};
 import { LoadingSpinnerFull } from '@/components/ui/loading-spinner';
 import { 
   getAllVestings, 

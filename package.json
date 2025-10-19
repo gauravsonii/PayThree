@@ -18,6 +18,11 @@
     "install:all": "npm install && cd employee-portal && npm install && cd ../hr-portal && npm install",
     "lint": "cd employee-portal && npm run lint && cd ../hr-portal && npm run lint"
   },
+  "dependencies": {
+    "next": "13.5.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
   "devDependencies": {
     "concurrently": "^8.2.2"
   },

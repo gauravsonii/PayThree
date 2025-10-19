@@ -8,7 +8,7 @@ import { employeeApi } from '@/lib/api';
 import { Employee } from '@/types';
 import { TrendingUp, Calendar, Users, Award, Clock, DollarSign, Trash2 } from 'lucide-react';
 import { StatsCard } from '@/components/dashboard/stats-card';
-import { formatDistanceToNow } from 'date-fns/formatDistanceToNow';
+import { formatDistanceToNow } from 'date-fns';
 import { LoadingSpinnerFull } from '@/components/ui/loading-spinner';
 import { 
   getAllVestings, 

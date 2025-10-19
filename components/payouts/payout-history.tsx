@@ -15,17 +15,23 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PayoutBatch, Payout, Employee } from '@/types';
 import { payoutApi } from '@/lib/api';
 // Simple date formatting function
-const formatDistanceToNow = (date: Date) => {
+const formatDistanceToNow = (date: Date, options?: { addSuffix?: boolean }) => {
   const now = new Date();
   const diffInSeconds = Math.floor((now.getTime() - date.getTime()) / 1000);
   const diffInMinutes = Math.floor(diffInSeconds / 60);
   const diffInHours = Math.floor(diffInMinutes / 60);
   const diffInDays = Math.floor(diffInHours / 24);
   
-  if (diffInDays > 0) return `${diffInDays} day${diffInDays > 1 ? 's' : ''} ago`;
-  if (diffInHours > 0) return `${diffInHours} hour${diffInHours > 1 ? 's' : ''} ago`;
-  if (diffInMinutes > 0) return `${diffInMinutes} minute${diffInMinutes > 1 ? 's' : ''} ago`;
-  return 'Just now';
+  let result = '';
+  if (diffInDays > 0) result = `${diffInDays} day${diffInDays > 1 ? 's' : ''}`;
+  else if (diffInHours > 0) result = `${diffInHours} hour${diffInHours > 1 ? 's' : ''}`;
+  else if (diffInMinutes > 0) result = `${diffInMinutes} minute${diffInMinutes > 1 ? 's' : ''}`;
+  else result = 'Just now';
+  
+  if (options?.addSuffix && result !== 'Just now') {
+    return result + ' ago';
+  }
+  return result;
 };
 import { ExternalLink, Eye } from 'lucide-react';
 import { LoadingSpinner, LoadingSpinnerFull } from '@/components/ui/loading-spinner';

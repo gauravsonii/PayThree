@@ -1,31 +1,15 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "employee-portal/.next",
-  "installCommand": "npm run install:all",
-  "framework": "nextjs",
-  "functions": {
-    "employee-portal/app/api/**/*.ts": {
-      "runtime": "nodejs18.x"
-    },
-    "hr-portal/app/api/**/*.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "rewrites": [
+  "builds": [
     {
-      "source": "/api/(.*)",
-      "destination": "/employee-portal/api/$1"
-    },
-    {
-      "source": "/hr/api/(.*)",
-      "destination": "/hr-portal/api/$1"
+      "src": "employee-portal/package.json",
+      "use": "@vercel/next"
     }
   ],
-  "redirects": [
+  "routes": [
     {
-      "source": "/",
-      "destination": "/my-esops"
+      "src": "/(.*)",
+      "dest": "/employee-portal/$1"
     }
   ]
 }

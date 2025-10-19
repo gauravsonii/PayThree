@@ -1,190 +1,193 @@
-
-# **PayThree – Payroll & ESOPs for the Avalanche Ecosystem**
-
-## **Overview**
-
-**PayThree** is a next-generation platform built natively for the **Avalanche Fuji ecosystem**, designed to redefine how organizations manage global payroll and ESOPs.
-
-From a single, intuitive dashboard, organizations can **batch-process payouts** in one blockchain transaction, guarantee **on-chain transparency** with every payment verifiable on Avalanche's explorer, automate **ESOP vesting**, send **instant email notifications** for payouts and stock option events, and enable **cross-border, bank-free settlements** in seconds all while leveraging Avalanche's ultra-scalable, low-fee infrastructure.
-
-With PayThree, payroll isn't just faster and cheaper – it's global, verifiable, and built for the next generation of work.
-
-## Resources
-
-> **Note:** In the production version, the HR Portal is secured with role-based authentication and wallet verification.  
-> For the **Avalanche Fuji demo**, we've temporarily kept it open so anyone can explore its features without setup friction.
-
-| Resource | Resource Link |
-|----------|---------------|
-| **GitHub Repository** | [🔗 View on GitHub](https://github.com/preyanshu/paythree) |
-| **HR Portal (Live Demo)** | [🔗 Open HR Portal](https://hrpaythreee-rho.vercel.app/) |
-| **Employee Portal (Live Demo)** | [🔗 Open Employee Portal](https://employeepaythreee.vercel.app/) |
-| **Demo Video** | [🔗 Watch on YouTube](https://youtube.com/your-demo-video) |
-| **Avalanche Fuji Explorer – ESOP Smart Contract** | [🔗 Contract](https://testnet.snowtrace.io/address/0xDA30D2f74565DFC70f7c68Ec41bbbc97Fa3b7B78) |
-| **Avalanche Fuji Explorer – Payout Smart Contract** | [🔗Contract](https://testnet.snowtrace.io/address/0x1A5D2170C16ACD5deb63f072fbc5EaDF00Db4Ce8) |
-
-
-## **The Problems in Web3 Payroll Today**
-
--   High gas fees from one-by-one transactions
-    
--   Wrong wallet addresses causing lost funds
-    
--   Slow, costly cross-border payments
-    
--   No real-time employee communication
-    
--   Lack of ESOP lifecycle management
-
-
-## **PayThree’s Solution**
-
--   **Batch Payouts** – Pay multiple employees in one blockchain transaction
-    
--   **Verified Wallets** – Prevent costly payout errors
-    
--   **On-Chain Transparency** – All payouts verifiable on Avalanche Explorer
-    
--   **Automated ESOP Vesting** – Complete stock option lifecycle on-chain
-    
--   **Automated Email Notifications** – Instant payout/ESOP alerts to inbox
-    
--   **Cross-Border, Bank-Free** – Instant blockchain settlement worldwide
-
-
-## **Why PayThree Stands Out from Other Web3 Payment Solutions**
-
-1.  **Full ESOP Support** 
-    
-    -   We’re not just payroll  we handle the entire **stock option lifecycle**, including granting, vesting, and claiming, all on-chain.
-        
-2.  **Seamless Gasless Experience** 
-    
-    -   Using **off-chain endpoints** + meta-transactions, for the minimal gas experience.
-        
-3.  **Smart Contract per Organization** 
-    
-    -   Every org gets its **own deployed smart contract**, isolating funds, improving security, and enabling organization-specific custom logic.
-        
-4.  **Two-Way Communication** 
-    
-    -   Automated emails ensure employees always know when payouts happen  unlike most tools that rely only on blockchain explorers.
-        
-5.  **Integrated Employee Portal** 
-    
-    -   Other tools focus only on admin dashboards PayThree gives employees their **own secure space** to track pay, ESOPs, and notifications.
-
-## **HR Portal – For Organizations**
-
-### **Wallet-First Security**
-
-<img width="1851" height="999" alt="image" src="https://github.com/user-attachments/assets/e2f7ad2d-efa3-4d33-8da1-0732e4a6850a" />
-
-
-
-    
-
-### **Employee Management**
-
--   Add & manage blockchain-linked employee profiles.
-
- <img width="1851" height="999" alt="image" src="https://github.com/user-attachments/assets/73f4b52d-9f70-405f-9a9e-d8e87014a8e9" />
-
-
-    
-
-### **ESOP Management**
-
--   Grant, track, and vest ESOPs automatically.
-
-  <img width="1851" height="999" alt="image" src="https://github.com/user-attachments/assets/00fb6fbc-ade1-4996-a12b-db9ed9a2876d" />
-
-    
-
-### **Payout Processing**
-
--   One-click batch payouts with transaction history.
-    <img width="1851" height="999" alt="image" src="https://github.com/user-attachments/assets/84681c2c-b3ac-4649-bcb4-5dd587836245" />
-
-
-### **Settings & Configurations**
-
--   Manage org details, token addresses, and payout preferences.
-
-
-
-    
-
-----------
-
-## **Employee Portal – For Employees**
-
-### **Dashboard**
-
--   View total earnings, upcoming payouts, and ESOP progress.
-
-  <img width="1851" height="999" alt="image" src="https://github.com/user-attachments/assets/cf8e080c-c23e-42fb-aaf8-84676bd86e1b" />
-
-    
-
-### **My ESOPs**
-
--   Track grants, vesting timelines, and claim options.
-
-  <img width="1851" height="999" alt="image" src="https://github.com/user-attachments/assets/4cdae53d-de44-4a34-b765-294eee3c1ae4" />
-
-    
-
-### **My Pay**
-
--   View payout history and verify on-chain details.
-
-  <img width="1851" height="999" alt="image" src="https://github.com/user-attachments/assets/6284a88e-b94d-4672-ad8f-af806d958203" />
-
-
-## **Future Roadmap for Avalanche Fuji**
-
-1.  **AI Payroll Agent** 
-    
-    -   Automates payouts, detects anomalies, optimizes gas usage.
-        
-2.  **Deep Fiat–Crypto Bridge** 
-    
-    -   Seamless on/off-ramp integrations for global salary distribution.
-    
-4.  **Compliance & Tax Automation** 
-    
-    -   Generate jurisdiction-specific payroll & ESOP reports.
-        
-5.  **DeFi-Integrated Payroll** 
-    
-    -   Auto-stake salaries into Avalanche-native DeFi protocols for passive yield.
-    
- 6.  **ZK-Powered Privacy Layer**
-
-     -  Use zero-knowledge proofs to verify payouts occurred without revealing individual employee salaries, protecting privacy while maintaining transparency.
-
-# Value to the Avalanche Ecosystem
-
-PayThree is a flagship utility dApp that amplifies Avalanche's strengths and drives ecosystem growth.
-
-## 1. Showcasing Avalanche's Low-Fee, High-Speed Network
-
-Batch payouts and ESOP distributions become near-instant and cost-effective, demonstrating Avalanche's scalable architecture for high-volume transactions.
-
-## 2. Driving On-Chain Activity
-
-Every payout, ESOP vesting, and claim increases Avalanche's daily active users and transaction count, boosting network health metrics that attract developers and investors.
-
-## 3. Expanding Use Cases Beyond DeFi
-
-PayThree introduces HR, payroll, and corporate finance as new categories, broadening Avalanche's ecosystem diversity and showcasing its versatility.
-
-## 4. Attracting Organizations & Teams to Avalanche
-
-Companies and DAOs using PayThree naturally onboard employees and contractors onto Avalanche, expanding the user base organically through payroll adoption.
-
-## 5. Future Integrations that Strengthen Avalanche's Position
-
-Our roadmap includes AI-powered payroll agents, ZK-based privacy verification, and fiat on/off-ramps all built natively on Avalanche, cementing it as the go-to chain for Web3 payroll infrastructure.
-
+# PayThree - Avalanche ESOP & Payroll Management Platform
+
+A comprehensive blockchain-based platform for managing Employee Stock Option Plans (ESOPs) and payroll on the Avalanche network.
+
+## 🚀 Features
+
+### Employee Portal
+- View personal ESOP grants and vesting schedules
+- Track payout history and upcoming payments
+- Wallet integration for Avalanche network
+- Real-time balance and transaction tracking
+
+### HR Portal
+- Manage employee ESOP grants
+- Process payroll and batch payments
+- Treasury management and transaction history
+- Employee onboarding and management
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 13, React 18, TypeScript
+- **UI**: Tailwind CSS, Radix UI, Lucide Icons
+- **Blockchain**: Avalanche C-Chain, Wagmi, Viem
+- **Database**: MongoDB with Mongoose
+- **Authentication**: NextAuth.js
+- **Email**: Resend
+- **Deployment**: Vercel
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/gauravsonii/PayThree.git
+   cd PayThree
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm run install:all
+   ```
+
+3. **Environment Setup**
+   
+   **Employee Portal:**
+   ```bash
+   cd employee-portal
+   cp .env.example .env.local
+   # Edit .env.local with your configuration
+   ```
+
+   **HR Portal:**
+   ```bash
+   cd hr-portal
+   cp .env.example .env.local
+   # Edit .env.local with your configuration
+   ```
+
+4. **Required Environment Variables**
+   ```env
+   # MongoDB Configuration
+   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/database
+   
+   # NextAuth Configuration
+   NEXTAUTH_URL=https://your-domain.com
+   NEXTAUTH_SECRET=your-secret-key
+   
+   # Avalanche Configuration
+   NEXT_PUBLIC_AVALANCHE_RPC_URL=https://api.avax.network/ext/bc/C/rpc
+   NEXT_PUBLIC_AVALANCHE_CHAIN_ID=43114
+   
+   # Contract Addresses
+   NEXT_PUBLIC_ESOP_CONTRACT_ADDRESS=0x...
+   NEXT_PUBLIC_PAYROLL_CONTRACT_ADDRESS=0x...
+   NEXT_PUBLIC_USDC_CONTRACT_ADDRESS=0x...
+   
+   # Email Configuration
+   RESEND_API_KEY=your-resend-api-key
+   FROM_EMAIL=noreply@yourcompany.com
+   ```
+
+## 🚀 Deployment
+
+### Vercel Deployment (Recommended)
+
+1. **Connect to Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Import your GitHub repository
+   - Vercel will automatically detect the Next.js applications
+
+2. **Configure Environment Variables**
+   - Add all required environment variables in Vercel dashboard
+   - Set different values for Employee and HR portals
+
+3. **Deploy**
+   - Vercel will automatically deploy both applications
+   - Employee Portal: `https://your-domain.vercel.app`
+   - HR Portal: `https://your-domain-hr.vercel.app`
+
+### Manual Deployment
+
+1. **Build the applications**
+   ```bash
+   npm run build
+   ```
+
+2. **Start the applications**
+   ```bash
+   # Employee Portal (Port 3000)
+   npm run start:employee
+   
+   # HR Portal (Port 3001)
+   npm run start:hr
+   ```
+
+## 🔧 Development
+
+### Running Locally
+
+```bash
+# Install dependencies
+npm run install:all
+
+# Start both applications in development mode
+npm run dev
+
+# Or start individually
+npm run dev:employee  # Employee Portal on http://localhost:3000
+npm run dev:hr        # HR Portal on http://localhost:3001
+```
+
+### Project Structure
+
+```
+paythree-avax/
+├── employee-portal/          # Employee-facing application
+│   ├── app/                  # Next.js 13 app directory
+│   ├── components/           # React components
+│   ├── lib/                  # Utility functions
+│   ├── models/               # MongoDB models
+│   └── utils/                # Blockchain utilities
+├── hr-portal/                # HR-facing application
+│   ├── app/                  # Next.js 13 app directory
+│   ├── components/           # React components
+│   ├── contracts/            # Smart contracts
+│   ├── emailTemplates/       # Email templates
+│   └── ...
+└── vercel.json              # Vercel deployment configuration
+```
+
+## 🔗 Smart Contracts
+
+The platform uses several smart contracts on Avalanche:
+
+- **ESOPVesting.sol**: Manages ESOP grants and vesting
+- **PayrollManager.sol**: Handles payroll processing
+- **MockUSDC.sol**: Test USDC token for development
+
+## 📱 Usage
+
+### For Employees
+1. Connect your Avalanche wallet
+2. View your ESOP grants and vesting schedule
+3. Track your payout history
+4. Monitor your token balance
+
+### For HR
+1. Access the HR portal
+2. Manage employee ESOP grants
+3. Process payroll batches
+4. Monitor treasury transactions
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🆘 Support
+
+For support and questions:
+- Create an issue on GitHub
+- Contact: [Your Contact Information]
+
+## 🔗 Links
+
+- **Repository**: https://github.com/gauravsonii/PayThree
+- **Live Demo**: [Coming Soon]
+- **Documentation**: [Coming Soon]

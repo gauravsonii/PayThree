@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "@mongodb_uri",
+    "NEXTAUTH_SECRET": "@nextauth_secret",
+    "NEXTAUTH_URL": "@nextauth_url",
+    "NEXT_PUBLIC_AVALANCHE_RPC_URL": "@avalanche_rpc_url",
+    "NEXT_PUBLIC_AVALANCHE_CHAIN_ID": "43114",
+    "NEXT_PUBLIC_AVALANCHE_CHAIN_NAME": "Avalanche C-Chain",
+    "RESEND_API_KEY": "@resend_api_key",
+    "FROM_EMAIL": "@from_email"
+  }
+}

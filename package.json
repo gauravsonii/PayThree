@@ -1,0 +1,40 @@
+{
+  "name": "paythree-avax",
+  "version": "1.0.0",
+  "description": "PayThree - Employee and HR Portal for ESOP and Payroll Management on Avalanche",
+  "private": true,
+  "scripts": {
+    "dev:employee": "cd employee-portal && npm run dev",
+    "dev:hr": "cd hr-portal && npm run dev",
+    "dev": "concurrently \"npm run dev:employee\" \"npm run dev:hr\"",
+    "build:employee": "cd employee-portal && npm run build",
+    "build:hr": "cd hr-portal && npm run build",
+    "build": "npm run build:employee && npm run build:hr",
+    "start:employee": "cd employee-portal && npm run start",
+    "start:hr": "cd hr-portal && npm run start",
+    "install:all": "npm install && cd employee-portal && npm install && cd ../hr-portal && npm install",
+    "lint": "cd employee-portal && npm run lint && cd ../hr-portal && npm run lint"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gauravsonii/PayThree.git"
+  },
+  "keywords": [
+    "blockchain",
+    "avalanche",
+    "esop",
+    "payroll",
+    "employee-portal",
+    "hr-portal",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "Gaurav Soni",
+  "license": "MIT"
+}

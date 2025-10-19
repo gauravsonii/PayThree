@@ -52,7 +52,7 @@
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.3.0",
     "encoding": "^0.1.13",
-    "eslint": "8.49.0",
+    "eslint": "^8.57.0",
     "eslint-config-next": "13.5.1",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.446.0",
@@ -79,5 +79,23 @@
     "viem": "^2.33.2",
     "wagmi": "^2.16.1",
     "zod": "^3.23.8"
+  },
+  "overrides": {
+    "rimraf": "^5.0.0",
+    "glob": "^10.0.0",
+    "inflight": "npm:@npmcli/inflight@^2.0.0",
+    "node-domexception": "^2.0.0",
+    "@humanwhocodes/config-array": "^0.12.0",
+    "@humanwhocodes/object-schema": "^2.0.0",
+    "@paulmillr/qr": "npm:qr@^1.5.0"
+  },
+  "resolutions": {
+    "rimraf": "^5.0.0",
+    "glob": "^10.0.0",
+    "inflight": "npm:@npmcli/inflight@^2.0.0",
+    "node-domexception": "^2.0.0",
+    "@humanwhocodes/config-array": "^0.12.0",
+    "@humanwhocodes/object-schema": "^2.0.0",
+    "@paulmillr/qr": "npm:qr@^1.5.0"
   }
 }

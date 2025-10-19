@@ -1,9 +1,11 @@
 // lib/mongodb.ts
 import mongoose from "mongoose";
 
-const MONGODB_URI = process.env.MONGODB_URI!;
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/paythree";
 
-if (!MONGODB_URI) throw new Error("Please add MONGODB_URI to .env");
+if (!process.env.MONGODB_URI && process.env.NODE_ENV === 'production') {
+  console.warn("MONGODB_URI not set in production environment");
+}
 
 let cached = (global as any).mongoose || { conn: null, promise: null };
 

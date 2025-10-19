@@ -11,6 +11,9 @@ export async function POST(req: Request) {
     const employee = await Employee.create(data);
     return NextResponse.json({ success: true, employee });
   } catch (err: any) {
+    if (err.message.includes('MongoDB') || err.message.includes('connection')) {
+      return NextResponse.json({ success: false, error: 'Database connection failed' }, { status: 503 });
+    }
     return NextResponse.json({ success: false, error: err.message }, { status: 500 });
   }
 }
@@ -30,6 +33,9 @@ export async function GET(req: Request) {
     const employees = await Employee.find();
     return NextResponse.json({ success: true, employees });
   } catch (err: any) {
+    if (err.message.includes('MongoDB') || err.message.includes('connection')) {
+      return NextResponse.json({ success: false, error: 'Database connection failed' }, { status: 503 });
+    }
     return NextResponse.json({ success: false, error: err.message }, { status: 500 });
   }
 }

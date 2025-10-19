@@ -86,16 +86,6 @@
     "inflight": "npm:@npmcli/inflight@^2.0.0",
     "node-domexception": "^2.0.0",
     "@humanwhocodes/config-array": "^0.12.0",
-    "@humanwhocodes/object-schema": "^2.0.0",
-    "@paulmillr/qr": "npm:qr@^1.5.0"
-  },
-  "resolutions": {
-    "rimraf": "^5.0.0",
-    "glob": "^10.0.0",
-    "inflight": "npm:@npmcli/inflight@^2.0.0",
-    "node-domexception": "^2.0.0",
-    "@humanwhocodes/config-array": "^0.12.0",
-    "@humanwhocodes/object-schema": "^2.0.0",
-    "@paulmillr/qr": "npm:qr@^1.5.0"
+    "@humanwhocodes/object-schema": "^2.0.0"
   }
 }
